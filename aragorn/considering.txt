@@ -1,11 +1,16 @@
-1 Arcane Signet (WHO) 239 #!Ramp
 1 Azorius Signet (MKC) 224 #!Ramp
 1 Boros Signet (BLC) 128 #!Ramp
 1 Eldritch Evolution (EMN) 155 #!Tutor
 1 Etali, Primal Conqueror / Etali, Primal Sickness (MOM) 298 #!Card Advantage #Win Condition
-1 Fierce Guardianship (CMM) 94 #!Countermagic #!Interaction
 1 Gruul Signet (BLC) 273 #!Ramp
 1 Izzet Signet (LCC) 306 #!Ramp
 1 Selesnya Signet (CLU) 227 #!Ramp
 1 Signal the Clans (GTC) 194 #!Tutor
 1 Simic Signet (DSC) 252 #!Ramp
+1 Crop Rotation (DMR) 154 #!Tutor #!Fixing
+1 Friendly Rivalry (LTR) 204 #!Interaction #!Removal
+1 Neoform (WAR) 206 #!Tutor
+1 Teferi's Protection (SLD) 164 *F* #!Protection
+1 Time Wipe (WAR) 223 #!Board Wipe #!Interaction
+1 Hero of Precinct One (RNA) 11 #Multi Coloured Matters
+1 Manamorphose (PLST) SHM-211 #!Card Advantage #!Fixing

@@ -134,13 +134,21 @@
 - **Role:** Multicolor payoff, token generation
 - **Synergies:** Triggers 2 of Aragorn's abilities (red, white). Creates 4/4s from multicolored spells.
 
-### Hero of Precinct One
-- **Mana Cost:** {1}{W}
-- **Type:** Creature — Human Warrior
-- **Stats:** 2/2
-- **Oracle Text:** Whenever you cast a multicolored spell, create a 1/1 white Human creature token.
-- **Role:** Multicolor payoff, token generation
-- **Synergies:** Triggers white ability. Extra token per multicolored spell.
+### Esper Sentinel
+- **Mana Cost:** {W}
+- **Type:** Artifact Creature — Human Soldier
+- **Stats:** 1/1
+- **Oracle Text:** Whenever an opponent casts their first noncreature spell each turn, draw a card unless that player pays {X}, where X is this creature's power.
+- **Role:** Card advantage engine
+- **Synergies:** Triggers white ability. Premium 1-drop that draws cards throughout multiplayer games. Human Soldier synergizes with Éomer.
+
+### Wan Shi Tong, Librarian
+- **Mana Cost:** {X}{U}{U}
+- **Type:** Legendary Creature — Bird Spirit
+- **Stats:** 1/1
+- **Oracle Text:** Flash. Flying, vigilance. When Wan Shi Tong enters, put X +1/+1 counters on him. Then draw half X cards, rounded down. Whenever an opponent searches their library, put a +1/+1 counter on Wan Shi Tong and draw a card.
+- **Role:** Scalable card advantage, search punisher
+- **Synergies:** Triggers blue ability (scry 2). Flash enables instant-speed threat. Punishes fetch lands and tutors. Scales with available mana.
 
 ### Bloodbraid Elf
 - **Mana Cost:** {2}{R}{G}
@@ -215,6 +223,13 @@
 - **Role:** Uncounterable threats, trample enabler
 - **Synergies:** Triggers 3 of Aragorn's abilities (green, blue, red). Protects creature spells from counters.
 
+### Endurance
+- **Mana Cost:** {1}{G}{G}
+- **Type:** Creature — Elemental Incarnation
+- **Stats:** 3/4
+- **Oracle Text:** Flash. Reach. When this creature enters, up to one target player puts all the cards from their graveyard on the bottom of their library in a random order. Evoke—Exile a green card from your hand.
+- **Role:** Graveyard hate, surprise blocker
+- **Synergies:** Triggers green ability. Can be evoked for free to shut down graveyard strategies. Flash enables surprise blocks. Reach helps against flyers.
 
 ---
 
@@ -255,13 +270,6 @@
 - **Role:** Tutor, card selection
 - **Synergies:** Triggers 2 of Aragorn's abilities (green, white). Stacks deck with multicolored creatures.
 
-### Crop Rotation
-- **Mana Cost:** {G}
-- **Type:** Instant
-- **Oracle Text:** As an additional cost to cast this spell, sacrifice a land. Search your library for a land card, put that card onto the battlefield, then shuffle.
-- **Role:** Land tutor
-- **Synergies:** Triggers green ability. Fetches Boseiju, Yavimaya, or utility lands.
-
 ### Cyclonic Rift
 - **Mana Cost:** {1}{U}
 - **Type:** Instant
@@ -290,12 +298,12 @@
 - **Role:** Creature tutor
 - **Synergies:** Triggers 2 of Aragorn's abilities (green, white). Instant speed.
 
-### Friendly Rivalry
-- **Mana Cost:** {R}{G}
+### Fierce Guardianship
+- **Mana Cost:** {2}{U}
 - **Type:** Instant
-- **Oracle Text:** Target creature you control and up to one other target legendary creature you control each deal damage equal to their power to target creature you don't control.
-- **Role:** Removal
-- **Synergies:** Triggers 2 of Aragorn's abilities (red, green). Aragorn + another creature deals massive damage.
+- **Oracle Text:** If you control a commander, you may cast this spell without paying its mana cost. Counter target noncreature spell.
+- **Role:** Free counterspell
+- **Synergies:** Free with Aragorn out. Counters board wipes, combo pieces, and other threatening noncreature spells. Premium protection.
 
 ### Galadriel's Dismissal
 - **Mana Cost:** {W}
@@ -332,13 +340,6 @@
 - **Role:** Removal, reach, lifegain
 - **Synergies:** Triggers 3 of Aragorn's abilities (blue, red, white). Premium charm.
 
-### Manamorphose
-- **Mana Cost:** {1}{R/G}
-- **Type:** Instant
-- **Oracle Text:** Add two mana in any combination of colors. Draw a card.
-- **Role:** Fixing, cantrip
-- **Synergies:** Triggers 2 of Aragorn's abilities (hybrid counts as both). Free spell essentially.
-
 ### Naya Charm
 - **Mana Cost:** {R}{G}{W}
 - **Type:** Instant
@@ -373,13 +374,6 @@
 - **Oracle Text:** Target permanent you control gains hexproof and indestructible until end of turn. You gain 2 life.
 - **Role:** Single-target protection
 - **Synergies:** Triggers green ability. Cheap protection for Aragorn.
-
-### Teferi's Protection
-- **Mana Cost:** {2}{W}
-- **Type:** Instant
-- **Oracle Text:** Until your next turn, your life total can't change and you gain protection from everything. All permanents you control phase out. Exile Teferi's Protection.
-- **Role:** Ultimate protection
-- **Synergies:** Triggers white ability. Survives anything.
 
 ### Temur Charm
 - **Mana Cost:** {G}{U}{R}
@@ -434,13 +428,6 @@
 - **Role:** Ramp
 - **Synergies:** Triggers green ability. Fetches any Forest including duals/triomes UNTAPPED.
 
-### Neoform
-- **Mana Cost:** {G}{U}
-- **Type:** Sorcery
-- **Oracle Text:** As an additional cost to cast this spell, sacrifice a creature. Search your library for a creature card with mana value equal to 1 plus the sacrificed creature's mana value, put that card onto the battlefield with an additional +1/+1 counter on it, then shuffle.
-- **Role:** Creature tutor, pod effect
-- **Synergies:** Triggers 2 of Aragorn's abilities (green, blue). Sacrifice a token or mana dork to find key pieces. Sac a 1-drop → Jinnie Fay. Sac a 3-drop → Jetmir/Omnath.
-
 ### Supreme Verdict
 - **Mana Cost:** {1}{W}{W}{U}
 - **Type:** Sorcery
@@ -454,13 +441,6 @@
 - **Oracle Text:** Search your library for a Forest card, put it onto the battlefield, then shuffle.
 - **Role:** Ramp
 - **Synergies:** Triggers green ability. Same as Nature's Lore.
-
-### Time Wipe
-- **Mana Cost:** {2}{W}{W}{U}
-- **Type:** Sorcery
-- **Oracle Text:** Return a creature you control to its owner's hand, then destroy all creatures.
-- **Role:** Board wipe with upside
-- **Synergies:** Triggers 2 of Aragorn's abilities (white, blue). Saves Aragorn before wiping.
 
 ---
 
@@ -487,6 +467,13 @@
 - **Role:** Uncounterable creatures, haste/counters
 - **Synergies:** Triggers 2 of Aragorn's abilities (red, green). Aragorn can't be countered and enters with haste or a counter.
 
+### Rhystic Study
+- **Mana Cost:** {2}{U}
+- **Type:** Enchantment
+- **Oracle Text:** Whenever an opponent casts a spell, you may draw a card unless that player pays {1}.
+- **Role:** Card advantage engine
+- **Synergies:** Triggers blue ability (scry 2). Premium persistent card draw that doesn't require combat or monarch. Taxes opponents or draws cards every turn.
+
 ### Warleader's Call
 - **Mana Cost:** {1}{R}{W}
 - **Type:** Enchantment
@@ -498,12 +485,26 @@
 
 ## Artifacts
 
+### Arcane Signet
+- **Mana Cost:** {2}
+- **Type:** Artifact
+- **Oracle Text:** {T}: Add one mana of any color in your commander's color identity.
+- **Role:** Mana rock
+- **Synergies:** Produces any of Aragorn's colors. Survives creature board wipes unlike mana dorks.
+
 ### Lightning Greaves
 - **Mana Cost:** {2}
 - **Type:** Artifact — Equipment
 - **Oracle Text:** Equipped creature has haste and shroud. Equip {0}.
 - **Role:** Commander protection
 - **Synergies:** Protects Aragorn. Free equip.
+
+### Sol Ring
+- **Mana Cost:** {1}
+- **Type:** Artifact
+- **Oracle Text:** {T}: Add {C}{C}.
+- **Role:** Mana acceleration
+- **Synergies:** Format staple. Enables turn 2 Aragorn with another land. Survives creature board wipes.
 
 ### Swiftfoot Boots
 - **Mana Cost:** {2}
@@ -624,12 +625,12 @@ Notable utility lands:
 
 ## Considering
 
-### Arcane Signet
-- **Mana Cost:** {2}
-- **Type:** Artifact
-- **Oracle Text:** {T}: Add one mana of any color in your commander's color identity.
-- **Role:** Mana rock
-- **Consideration:** Standard 2-mana rock. Deck currently prefers creature-based ramp.
+### Crop Rotation
+- **Mana Cost:** {G}
+- **Type:** Instant
+- **Oracle Text:** As an additional cost to cast this spell, sacrifice a land. Search your library for a land card, put that card onto the battlefield, then shuffle.
+- **Role:** Land tutor
+- **Consideration:** Triggers green ability. Fetches Boseiju, Yavimaya, or utility lands. Cut due to game changer limit - swapped for Rhystic Study.
 
 ### Eldritch Evolution
 - **Mana Cost:** {1}{G}{G}
@@ -646,12 +647,19 @@ Notable utility lands:
 - **Role:** Value bomb, alternate win condition
 - **Consideration:** Massive value on ETB. Transform into poison win condition. Only triggers red ability though.
 
-### Fierce Guardianship
-- **Mana Cost:** {2}{U}
+### Friendly Rivalry
+- **Mana Cost:** {R}{G}
 - **Type:** Instant
-- **Oracle Text:** If you control a commander, you may cast this spell without paying its mana cost. Counter target noncreature spell.
-- **Role:** Free counterspell
-- **Consideration:** Premium free counter with Aragorn out. Protects against board wipes.
+- **Oracle Text:** Target creature you control and up to one other target legendary creature you control each deal damage equal to their power to target creature you don't control.
+- **Role:** Removal
+- **Consideration:** Triggers 2 of Aragorn's abilities (red, green). Cut for Endurance - too conditional compared to other removal options.
+
+### Neoform
+- **Mana Cost:** {G}{U}
+- **Type:** Sorcery
+- **Oracle Text:** As an additional cost to cast this spell, sacrifice a creature. Search your library for a creature card with mana value equal to 1 plus the sacrificed creature's mana value, put that card onto the battlefield with an additional +1/+1 counter on it, then shuffle.
+- **Role:** Creature tutor, pod effect
+- **Consideration:** Triggers 2 of Aragorn's abilities (green, blue). Cut for Sol Ring - deck already has 5 creature tutors.
 
 ### Signal the Clans
 - **Mana Cost:** {R}{G}
@@ -665,3 +673,32 @@ Notable utility lands:
 - **Type:** Artifact
 - **Role:** Mana rocks
 - **Consideration:** More artifact ramp if creature-based ramp is too vulnerable.
+
+### Teferi's Protection
+- **Mana Cost:** {2}{W}
+- **Type:** Instant
+- **Oracle Text:** Until your next turn, your life total can't change and you gain protection from everything. All permanents you control phase out. Exile Teferi's Protection.
+- **Role:** Ultimate protection
+- **Consideration:** Triggers white ability. Survives anything. Cut due to game changer limit - swapped for Fierce Guardianship. Deck has 14 other protection pieces.
+
+### Time Wipe
+- **Mana Cost:** {2}{W}{W}{U}
+- **Type:** Sorcery
+- **Oracle Text:** Return a creature you control to its owner's hand, then destroy all creatures.
+- **Role:** Board wipe with upside
+- **Consideration:** Triggers 2 of Aragorn's abilities (white, blue). Cut for Arcane Signet - 4th board wipe was redundant and anti-synergy with token strategy.
+
+### Hero of Precinct One
+- **Mana Cost:** {1}{W}
+- **Type:** Creature — Human Warrior
+- **Stats:** 2/2
+- **Oracle Text:** Whenever you cast a multicolored spell, create a 1/1 white Human creature token.
+- **Role:** Multicolor payoff, token generation
+- **Consideration:** Triggers white ability. Cut for Wan Shi Tong - redundant with General Ferrous Rokiric (who makes 4/4s) and Aragorn's own token generation.
+
+### Manamorphose
+- **Mana Cost:** {1}{R/G}
+- **Type:** Instant
+- **Oracle Text:** Add two mana in any combination of colors. Draw a card.
+- **Role:** Fixing, cantrip
+- **Consideration:** Triggers 2 of Aragorn's abilities (hybrid). Cut for Esper Sentinel - no board presence, mana fixing less needed with Sol Ring and Arcane Signet.

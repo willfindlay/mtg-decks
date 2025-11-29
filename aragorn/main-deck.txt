@@ -16,7 +16,7 @@
 1 Chord of Calling (RVR) 134 #!Tutor
 1 Command Tower (LTC) 301 #!Land
 1 Congregation at Dawn (RAV) 198 #!Tutor
-1 Crop Rotation (DMR) 154 #!Tutor #!Fixing
+1 Arcane Signet (WHO) 239 #!Ramp
 1 Cyclonic Rift (RTR) 35 #!Board Wipe #!Interaction #!Removal
 1 Deflecting Swat (CMM) 214 #!Protection #!Interaction
 1 Delighted Halfling (LTR) 158 #!Ramp
@@ -35,13 +35,13 @@
 1 Finale of Devastation (WAR) 160 #!Tutor #Win Condition
 2 Forest (LTR) 271 #!Land
 1 Forth Eorlingas! (LTC) 56 #!Card Advantage #Win Condition
-1 Friendly Rivalry (LTR) 204 #!Interaction #!Removal
+1 Endurance (MH2) 157 #!Interaction #Graveyard Hate
 1 Fury (H2R) 10 #!Interaction #!Removal
 1 Galadriel's Dismissal (LTC) 500 #!Protection
 1 General Ferrous Rokiric (MH2) 198 #Multi Coloured Matters
 1 Growth Spiral (RNA) 178 #!Card Advantage #!Ramp
 1 Hallowed Fountain (RNA) 251 #!Land
-1 Hero of Precinct One (RNA) 11 #Multi Coloured Matters
+1 Wan Shi Tong, Librarian (TLA) 78 #!Card Advantage
 1 Heroic Intervention (AER) 109 #!Interaction #!Protection
 1 Horizon Canopy (FUT) 177 #!Land
 1 Bloodbraid Elf (2X2) 184 #!Card Advantage #Multi Coloured Matters
@@ -54,7 +54,7 @@
 1 Knight of Autumn (GRN) 183 #!Interaction #!Removal
 1 Knight of New Alara (DMC) 156 #Multi Coloured Matters
 1 Lightning Greaves (WHO) 243 #!Protection
-1 Manamorphose (PLST) SHM-211 #!Card Advantage #!Fixing
+1 Esper Sentinel (MH2) 12 #!Card Advantage
 1 Minas Tirith (LTR) 256 #!Land
 1 Misty Rainforest (MH2) 250 #!Land
 1 Mystic Remora (TLE) 16 #!Card Advantage
@@ -65,7 +65,7 @@
 1 Path of Ancestry (LTC) 322 #!Land
 1 Path to Exile (LTC) 175 #!Interaction #!Removal
 1 Pillar of the Paruns (2X2) 328 #!Land
-1 Neoform (WAR) 206 #!Tutor
+1 Fierce Guardianship (CMM) 94 #!Countermagic #!Interaction
 1 Raugrin Triome (IKO) 251 #!Land
 1 Razorverge Thicket (BLC) 325 #!Land
 1 Reflecting Pool (CNS) 210 #!Land
@@ -87,11 +87,11 @@
 1 Swiftfoot Boots (TLE) 317 #!Protection
 1 Swords to Plowshares (PLST) VOC-99 #!Interaction #!Removal
 1 Tamiyo's Safekeeping (NEO) 211 #!Protection
-1 Teferi's Protection (SLD) 164 *F* #!Protection
+1 Rhystic Study (JMP) 169 #!Card Advantage
 1 Temple Garden (RTR) 248 #!Land
 1 Temur Charm (C20) 230 #!Countermagic #!Interaction #!Removal
 1 Three Visits (CMR) 261 #!Ramp
-1 Time Wipe (WAR) 223 #!Board Wipe #!Interaction
+1 Sol Ring (LTC) 284 #!Ramp
 1 Warleader's Call (MKM) 242 #Win Condition #Multi Coloured Matters
 1 Windswept Heath (KTK) 248 #!Land
 1 Wooded Foothills (MH3) 236 #!Land
