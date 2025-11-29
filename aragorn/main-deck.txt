@@ -3,7 +3,7 @@
 1 Arwen, Mortal Queen (LTR) 193 #!Protection
 1 Birds of Paradise (LTC) 235 #!Ramp
 1 Bloom Tender (2X2) 138 #!Ramp
-1 Boromir, Warden of the Tower (LTR) 4 #!Protection
+1 Boromir, Warden of the Tower (LTR) 4 #!Protection #!Countermagic #!Interaction
 1 Boros Charm (ONC) 116 #!Interaction #!Protection #!Removal
 1 Boseiju, Who Endures (NEO) 266 #!Interaction #!Land #!Removal
 1 Bountiful Promenade (CLB) 348 #!Land
@@ -16,9 +16,9 @@
 1 Coiling Oracle (PLST) MM3-157 #!Card Advantage #!Ramp
 1 Command Tower (LTC) 301 #!Land
 1 Congregation at Dawn (RAV) 198 #!Tutor
-1 Crop Rotation (DMR) 154 #!Fixing
+1 Crop Rotation (DMR) 154 #!Tutor #!Fixing
 1 Cyclonic Rift (RTR) 35 #!Board Wipe #!Interaction #!Removal
-1 Deflecting Swat (CMM) 214 #!Protection
+1 Deflecting Swat (CMM) 214 #!Protection #!Interaction
 1 Delighted Halfling (LTR) 158 #!Ramp
 1 Divine Visitation (GRN) 10 #Win Condition
 1 Dovin's Veto (WAR) 193 #!Countermagic #!Interaction
@@ -27,7 +27,7 @@
 1 Éowyn, Fearless Knight (LTR) 201 #!Interaction #!Protection #!Removal #Win Condition
 1 Exotic Orchard (WHO) 276 #!Land
 1 Faeburrow Elder (PLST) ELD-190 #!Ramp
-1 Fallaji Wayfarer (DMC) 87 #Multi Coloured Matters
+1 Fallaji Wayfarer (DMC) 87 #!Ramp #Multi Coloured Matters
 1 Faramir, Prince of Ithilien (LTR) 202 #!Card Advantage
 1 Faramir, Steward of Gondor (LTC) 54 #!Card Advantage
 1 Farewell (M3C) 170 #!Board Wipe #!Interaction
@@ -45,8 +45,8 @@
 1 Heroic Intervention (AER) 109 #!Interaction #!Protection
 1 Horizon Canopy (FUT) 177 #!Land
 1 Inga and Esika (PMOM) 229p #!Card Advantage #!Ramp
-1 Izzet Charm (2X2) 230 #!Card Advantage #!Countermagic #!Interaction #Removal
-1 Jeskai Charm (KTK) 181 #!Interaction #!Protection #!Removal
+1 Izzet Charm (2X2) 230 #!Card Advantage #!Countermagic #!Interaction #!Removal
+1 Jeskai Charm (KTK) 181 #!Interaction #!Removal
 1 Jetmir, Nexus of Revels (SNC) 193 #Win Condition
 1 Jetmir's Garden (SNC) 250 #!Land
 1 Jinnie Fay, Jetmir's Second (SNC) 195 #Win Condition
@@ -54,14 +54,14 @@
 1 Knight of Autumn (GRN) 183 #!Interaction #!Removal
 1 Knight of New Alara (DMC) 156 #Multi Coloured Matters
 1 Lightning Greaves (WHO) 243 #!Protection
-1 Manamorphose (PLST) SHM-211 #!Card Advantage
+1 Manamorphose (PLST) SHM-211 #!Card Advantage #!Fixing
 1 Minas Tirith (LTR) 256 #!Land
 1 Misty Rainforest (MH2) 250 #!Land
 1 Mystic Remora (TLE) 16 #!Card Advantage
 1 Nature's Lore (DDD) 17 #!Ramp
-1 Naya Charm (PLST) C16-214 #!Interaction #!Protection #!Removal
+1 Naya Charm (PLST) C16-214 #!Card Advantage #!Interaction #!Protection #!Removal
 1 Noble Hierarch (2XM) 177 #!Ramp
-1 Omnath, Locus of Creation (ZNR) 312 #!Card Advantage #Multi Coloured Matters
+1 Omnath, Locus of Creation (ZNR) 312 #!Card Advantage #!Ramp #Multi Coloured Matters
 1 Path of Ancestry (LTC) 322 #!Land
 1 Path to Exile (LTC) 175 #!Interaction #!Removal
 1 Pillar of the Paruns (2X2) 328 #!Land
@@ -71,7 +71,7 @@
 1 Reflecting Pool (CNS) 210 #!Land
 1 Rejuvenating Springs (LTC) 325 #!Land
 1 Rhythm of the Wild (RNA) 201 #!Protection #Win Condition
-1 Rienne, Angel of Rebirth (DMC) 166 #Multi Coloured Matters
+1 Rienne, Angel of Rebirth (DMC) 166 #!Protection #Multi Coloured Matters
 1 Rivendell (LTR) 259 #!Land
 1 Sacred Foundry (PEOE) 256p #!Land
 1 Sea of Clouds (PLST) BBD-84 #!Land

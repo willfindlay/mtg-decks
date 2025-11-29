@@ -1,5 +1,7 @@
 # MTG Commander Decks Repository
 
+Note: Committing to main is always fine for this repository.
+
 ## Purpose
 
 This repository houses my Magic: The Gathering Commander/EDH decklists and serves as a workspace for designing, refining, and tracking deck construction.
