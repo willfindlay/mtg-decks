@@ -61,13 +61,13 @@
 - **Role:** Evasion enabler, win condition
 - **Synergies:** Grows from Aragorn's soldier tokens. Makes entire board unblockable quickly.
 
-### Coiling Oracle
-- **Mana Cost:** {G}{U}
-- **Type:** Creature — Snake Elf Druid
-- **Stats:** 1/1
-- **Oracle Text:** When this creature enters, reveal the top card of your library. If it's a land card, put it onto the battlefield. Otherwise, put that card into your hand.
-- **Role:** Card advantage, ramp
-- **Synergies:** Triggers 2 of Aragorn's abilities (green, blue).
+### Ghired, Mirror of the Wilds
+- **Mana Cost:** {R}{G}{W}
+- **Type:** Legendary Creature — Human Shaman
+- **Stats:** 3/3
+- **Oracle Text:** Haste. Nontoken creatures you control have "{T}: Create a token that's a copy of target token you control that entered this turn."
+- **Role:** Token doubler, win condition
+- **Synergies:** Triggers 3 of Aragorn's abilities (red, green, white). Copies Aragorn's soldier tokens. Works with Jinnie Fay to double cats/dogs. Haste enables immediate value.
 
 ### Delighted Halfling
 - **Mana Cost:** {G}
@@ -109,13 +109,6 @@
 - **Role:** Multicolor payoff, ramp
 - **Synergies:** Triggers green ability. Gives all multicolored spells convoke for explosive turns.
 
-### Faramir, Prince of Ithilien
-- **Mana Cost:** {2}{W}{U}
-- **Type:** Legendary Creature — Human Noble
-- **Stats:** 3/3
-- **Oracle Text:** At the beginning of your end step, choose an opponent. At the beginning of that player's next end step, you draw a card if they didn't attack you that turn. Otherwise, create three 1/1 white Human Soldier creature tokens.
-- **Role:** Card advantage, token generation
-- **Synergies:** Triggers 2 of Aragorn's abilities (white, blue). Generates value every turn cycle.
 
 ### Faramir, Steward of Gondor
 - **Mana Cost:** {1}{W}{U}
@@ -149,13 +142,13 @@
 - **Role:** Multicolor payoff, token generation
 - **Synergies:** Triggers white ability. Extra token per multicolored spell.
 
-### Inga and Esika
-- **Mana Cost:** {2}{G}{U}
-- **Type:** Legendary Creature — Human God
-- **Stats:** 4/4
-- **Oracle Text:** Creatures you control have vigilance and "{T}: Add one mana of any color. Spend this mana only to cast a creature spell." Whenever you cast a creature spell, if three or more mana from creatures was spent to cast it, draw a card.
-- **Role:** Mana generation, card advantage
-- **Synergies:** Triggers 2 of Aragorn's abilities (green, blue). Turns all creatures into dorks.
+### Bloodbraid Elf
+- **Mana Cost:** {2}{R}{G}
+- **Type:** Creature — Elf Berserker
+- **Stats:** 3/2
+- **Oracle Text:** Haste. Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)
+- **Role:** Value engine, aggression
+- **Synergies:** Triggers 2 of Aragorn's abilities (red, green). Cascade provides guaranteed value - hits charms, removal, ramp, or creatures. Haste enables immediate pressure.
 
 ### Jetmir, Nexus of Revels
 - **Mana Cost:** {1}{R}{G}{W}
@@ -205,13 +198,6 @@
 - **Role:** Value engine, landfall payoff
 - **Synergies:** Triggers all 4 of Aragorn's abilities. Premium 4-color card.
 
-### Pippin, Guard of the Citadel
-- **Mana Cost:** {W}{U}
-- **Type:** Legendary Creature — Halfling Soldier
-- **Stats:** 2/2
-- **Oracle Text:** Vigilance, ward {1}. {T}: Another target creature you control gains protection from the card type of your choice until end of turn.
-- **Role:** Protection, utility
-- **Synergies:** Triggers 2 of Aragorn's abilities (white, blue). Grants protection to Aragorn.
 
 ### Rienne, Angel of Rebirth
 - **Mana Cost:** {2}{R}{G}{W}
@@ -229,13 +215,6 @@
 - **Role:** Uncounterable threats, trample enabler
 - **Synergies:** Triggers 3 of Aragorn's abilities (green, blue, red). Protects creature spells from counters.
 
-### Torens, Fist of the Angels
-- **Mana Cost:** {1}{G}{W}
-- **Type:** Legendary Creature — Human Cleric
-- **Stats:** 2/2
-- **Oracle Text:** Training. Whenever you cast a creature spell, create a 1/1 green and white Human Soldier creature token with training.
-- **Role:** Token generation
-- **Synergies:** Triggers 2 of Aragorn's abilities (green, white). Creates tokens on creature casts.
 
 ---
 
@@ -261,6 +240,13 @@
 - **Oracle Text:** Choose one — Cabaretti Charm deals damage equal to the number of creatures you control to target creature or planeswalker. Creatures you control get +1/+1 and gain trample until end of turn. Create two 1/1 green and white Citizen creature tokens.
 - **Role:** Removal, pump, tokens
 - **Synergies:** Triggers 3 of Aragorn's abilities (red, green, white). All modes synergize with go-wide.
+
+### Chord of Calling
+- **Mana Cost:** {X}{G}{G}{G}
+- **Type:** Instant
+- **Oracle Text:** Convoke. Search your library for a creature card with mana value X or less, put it onto the battlefield, then shuffle.
+- **Role:** Instant-speed creature tutor
+- **Synergies:** Triggers green ability. Convoke synergizes amazingly with Aragorn's soldier tokens - tap them to reduce cost. Find Jetmir at instant speed to close games.
 
 ### Congregation at Dawn
 - **Mana Cost:** {G}{G}{W}
@@ -448,6 +434,13 @@
 - **Role:** Ramp
 - **Synergies:** Triggers green ability. Fetches any Forest including duals/triomes UNTAPPED.
 
+### Neoform
+- **Mana Cost:** {G}{U}
+- **Type:** Sorcery
+- **Oracle Text:** As an additional cost to cast this spell, sacrifice a creature. Search your library for a creature card with mana value equal to 1 plus the sacrificed creature's mana value, put that card onto the battlefield with an additional +1/+1 counter on it, then shuffle.
+- **Role:** Creature tutor, pod effect
+- **Synergies:** Triggers 2 of Aragorn's abilities (green, blue). Sacrifice a token or mana dork to find key pieces. Sac a 1-drop → Jinnie Fay. Sac a 3-drop → Jetmir/Omnath.
+
 ### Supreme Verdict
 - **Mana Cost:** {1}{W}{W}{U}
 - **Type:** Sorcery
@@ -493,6 +486,13 @@
 - **Oracle Text:** Creature spells you control can't be countered. Nontoken creatures you control have riot.
 - **Role:** Uncounterable creatures, haste/counters
 - **Synergies:** Triggers 2 of Aragorn's abilities (red, green). Aragorn can't be countered and enters with haste or a counter.
+
+### Warleader's Call
+- **Mana Cost:** {1}{R}{W}
+- **Type:** Enchantment
+- **Oracle Text:** Creatures you control get +1/+1. Whenever a creature you control enters, this enchantment deals 1 damage to each opponent.
+- **Role:** Anthem, damage engine, win condition
+- **Synergies:** Triggers 2 of Aragorn's abilities (red, white). Every soldier token from Aragorn pings all opponents. With Divine Visitation, each angel pings too. Closes games fast.
 
 ---
 
@@ -569,6 +569,14 @@ Notable utility lands:
 - **Role:** Card advantage, ramp
 - **Synergies:** Triggers 2 of Aragorn's abilities (red, green). Massive card advantage.
 
+### Inga and Esika
+- **Mana Cost:** {2}{G}{U}
+- **Type:** Legendary Creature — Human God
+- **Stats:** 4/4
+- **Oracle Text:** Creatures you control have vigilance and "{T}: Add one mana of any color. Spend this mana only to cast a creature spell." Whenever you cast a creature spell, if three or more mana from creatures was spent to cast it, draw a card.
+- **Role:** Mana generation, card advantage
+- **Synergies:** Triggers 2 of Aragorn's abilities (green, blue). Turns all creatures into dorks. Requires setup but powerful when online.
+
 ### Maelstrom Wanderer
 - **Mana Cost:** {5}{G}{U}{R}
 - **Type:** Legendary Creature — Elemental
@@ -623,13 +631,6 @@ Notable utility lands:
 - **Role:** Mana rock
 - **Consideration:** Standard 2-mana rock. Deck currently prefers creature-based ramp.
 
-### Chord of Calling
-- **Mana Cost:** {X}{G}{G}{G}
-- **Type:** Instant
-- **Oracle Text:** Convoke. Search your library for a creature card with mana value X or less, put it onto the battlefield, then shuffle.
-- **Role:** Instant speed creature tutor
-- **Consideration:** Excellent with token generation. Convoke works well with soldier tokens.
-
 ### Eldritch Evolution
 - **Mana Cost:** {1}{G}{G}
 - **Type:** Sorcery
@@ -651,13 +652,6 @@ Notable utility lands:
 - **Oracle Text:** If you control a commander, you may cast this spell without paying its mana cost. Counter target noncreature spell.
 - **Role:** Free counterspell
 - **Consideration:** Premium free counter with Aragorn out. Protects against board wipes.
-
-### Neoform
-- **Mana Cost:** {G}{U}
-- **Type:** Sorcery
-- **Oracle Text:** As an additional cost to cast this spell, sacrifice a creature. Search your library for a creature card with mana value equal to 1 plus the sacrificed creature's mana value, put that card onto the battlefield with an additional +1/+1 counter on it, then shuffle.
-- **Role:** Pod effect
-- **Consideration:** Triggers 2 of Aragorn's abilities (green, blue). Upgrade creatures.
 
 ### Signal the Clans
 - **Mana Cost:** {R}{G}

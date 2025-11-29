@@ -13,7 +13,7 @@
 1 Brushland (LTC) 297 #!Land
 1 Cabaretti Charm (SNC) 300 #!Interaction #!Removal
 1 Champion of Lambholt (JMP) 383 #Win Condition
-1 Coiling Oracle (PLST) MM3-157 #!Card Advantage #!Ramp
+1 Chord of Calling (RVR) 134 #!Tutor
 1 Command Tower (LTC) 301 #!Land
 1 Congregation at Dawn (RAV) 198 #!Tutor
 1 Crop Rotation (DMR) 154 #!Tutor #!Fixing
@@ -28,7 +28,7 @@
 1 Exotic Orchard (WHO) 276 #!Land
 1 Faeburrow Elder (PLST) ELD-190 #!Ramp
 1 Fallaji Wayfarer (DMC) 87 #!Ramp #Multi Coloured Matters
-1 Faramir, Prince of Ithilien (LTR) 202 #!Card Advantage
+1 Ghired, Mirror of the Wilds (OTJ) 205 #Win Condition #Multi Coloured Matters
 1 Faramir, Steward of Gondor (LTC) 54 #!Card Advantage
 1 Farewell (M3C) 170 #!Board Wipe #!Interaction
 1 Farseek (LTC) 244 #!Ramp
@@ -44,7 +44,7 @@
 1 Hero of Precinct One (RNA) 11 #Multi Coloured Matters
 1 Heroic Intervention (AER) 109 #!Interaction #!Protection
 1 Horizon Canopy (FUT) 177 #!Land
-1 Inga and Esika (PMOM) 229p #!Card Advantage #!Ramp
+1 Bloodbraid Elf (2X2) 184 #!Card Advantage #Multi Coloured Matters
 1 Izzet Charm (2X2) 230 #!Card Advantage #!Countermagic #!Interaction #!Removal
 1 Jeskai Charm (KTK) 181 #!Interaction #!Removal
 1 Jetmir, Nexus of Revels (SNC) 193 #Win Condition
@@ -65,7 +65,7 @@
 1 Path of Ancestry (LTC) 322 #!Land
 1 Path to Exile (LTC) 175 #!Interaction #!Removal
 1 Pillar of the Paruns (2X2) 328 #!Land
-1 Pippin, Guard of the Citadel (LTR) 218 #!Protection
+1 Neoform (WAR) 206 #!Tutor
 1 Raugrin Triome (IKO) 251 #!Land
 1 Razorverge Thicket (BLC) 325 #!Land
 1 Reflecting Pool (CNS) 210 #!Land
@@ -92,7 +92,7 @@
 1 Temur Charm (C20) 230 #!Countermagic #!Interaction #!Removal
 1 Three Visits (CMR) 261 #!Ramp
 1 Time Wipe (WAR) 223 #!Board Wipe #!Interaction
-1 Torens, Fist of the Angels (VOW) 249 #Win Condition
+1 Warleader's Call (MKM) 242 #Win Condition #Multi Coloured Matters
 1 Windswept Heath (KTK) 248 #!Land
 1 Wooded Foothills (MH3) 236 #!Land
 1 Yavimaya, Cradle of Growth (M3C) 409 *F* #!Land

@@ -1,4 +1,5 @@
 1 Escape to the Wilds (ELD) 189 #!Card Advantage #!Ramp
+1 Inga and Esika (PMOM) 229p #!Card Advantage #!Ramp
 1 Maelstrom Wanderer (CMM) 344 #Win Condition
 1 Solitude (MH2) 32 #!Interaction #!Removal
 1 Subtlety (MH2) 67 #!Countermagic #!Interaction
