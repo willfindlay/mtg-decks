@@ -1,0 +1,228 @@
+# MTG Commander Decks Repository
+
+## Purpose
+
+This repository houses my Magic: The Gathering Commander/EDH decklists and serves as a workspace for designing, refining, and tracking deck construction.
+
+**Claude Integration:** This repository is designed to be used with the `scryfall-mtg` Claude plugin, which provides MCP tools for:
+- Looking up card information (`get_card_by_name`)
+- Searching for cards by criteria (`search_cards`, `find_cards_for_deck`)
+- Verifying format legality (`check_format_legality`)
+- Validating card facts (`verify_card_facts`)
+
+When assisting with deck construction or analysis, **always use the Scryfall MCP tools** to verify card information rather than relying on training data alone.
+
+---
+
+## Repository Usage
+
+### Directory Structure
+
+```
+mtg-decks/
+├── CLAUDE.md           # This file - repo documentation and deck descriptions
+├── Makefile            # Automation for creating new decks
+├── template/           # Empty deck template
+│   ├── commander.txt
+│   ├── main-deck.txt
+│   ├── sideboard.txt
+│   └── considering.txt
+└── <deck-name>/        # One directory per deck
+    ├── commander.txt
+    ├── main-deck.txt
+    ├── sideboard.txt
+    └── considering.txt
+```
+
+### Deck File Format
+
+Each deck directory contains four files:
+
+| File | Purpose |
+|------|---------|
+| `commander.txt` | The commander card(s) - 1 card for standard, 2 for partner commanders |
+| `main-deck.txt` | The 99-card main deck (98 lines if any card has quantity > 1) |
+| `sideboard.txt` | Cards actively being tested or swapped in/out |
+| `considering.txt` | Cards being researched for potential future inclusion |
+
+### Card Entry Format
+
+```
+<quantity> <card name> (<SET>) <collector#> [*F*] #!GlobalTag #LocalTag
+```
+
+- `<quantity>` - Number of copies (usually 1 for Commander singleton)
+- `<card name>` - Full card name
+- `(<SET>)` - Set code in parentheses
+- `<collector#>` - Collector number
+- `*F*` - Optional foil marker
+- `#!Tag` - **Global tag** - applies universally across all decks (e.g., `#!Ramp`)
+- `#Tag` - **Local tag** - deck-specific, only meaningful in context of this deck (e.g., `#Multi Coloured Matters`)
+
+### Card Tags
+
+**Global Tags** (`#!`) - Universal categories that apply to any Commander deck:
+
+| Tag | Description |
+|-----|-------------|
+| `#!Land` | Mana-producing lands |
+| `#!Ramp` | Mana acceleration (dorks, rocks, land fetch) |
+| `#!Card Advantage` | Draw, selection, or card generation |
+| `#!Removal` | Targeted permanent destruction/exile |
+| `#!Interaction` | Responses to opponents' plays |
+| `#!Protection` | Protects your board or commander |
+| `#!Tutor` | Searches library for specific cards |
+| `#!Board Wipe` | Mass removal effects |
+| `#!Countermagic` | Spell negation |
+| `#!Fixing` | Mana color fixing |
+
+**Local Tags** (`#`) - Deck-specific categories (examples):
+
+| Tag | Deck | Description |
+|-----|------|-------------|
+| `#Win Condition` | Any | Cards that close out the game (varies by strategy) |
+| `#Multi Coloured Matters` | Aragorn | Payoffs for casting multicolored spells |
+
+### Creating a New Deck
+
+```bash
+make new NAME=<deck-name>
+```
+
+This copies the `template/` directory to create a new deck with empty files.
+
+### Deck Planning Workflow
+
+1. **Choose Commander** - Add to `commander.txt`
+2. **Define Strategy** - Identify primary win conditions and synergies
+3. **Research Cards** - Use Scryfall MCP tools to find candidates, add to `considering.txt`
+4. **Build Initial List** - Move cards to `main-deck.txt`, targeting:
+   - 34-38 lands
+   - 8-12 ramp sources
+   - 8-12 card draw sources
+   - 8-12 removal/interaction
+   - 3-5 win conditions
+   - Fill remaining slots with synergy pieces
+5. **Verify Legality** - Use `check_format_legality` on all cards
+6. **Iterate** - Test, swap cards between `main-deck.txt` and `sideboard.txt`
+7. **Document** - Update the deck's section in this CLAUDE.md
+
+### Maintaining This File
+
+When decks are added, modified, or removed:
+1. Add/update the corresponding subsection in "Deck Descriptions" below
+2. Keep commander info, strategy summary, and key combos current
+3. Update power level assessment if deck changes significantly
+4. Note any budget constraints or theme restrictions
+
+---
+
+## Commander Format Reference
+
+### Basic Rules
+
+- **Deck Size:** Exactly 100 cards (including commander)
+- **Singleton:** Maximum 1 copy of any card except basic lands
+- **Commander:** A legendary creature (or planeswalker with "can be your commander")
+- **Color Identity:** Every card must match the commander's color identity
+- **Starting Life:** 40 life
+- **Commander Damage:** 21 combat damage from a single commander is lethal
+- **Command Zone:** Commander starts in command zone, can be cast from there
+- **Commander Tax:** Costs {2} more for each previous cast from command zone
+
+### Color Identity Rules
+
+Color identity includes:
+- Mana symbols in mana cost
+- Mana symbols in rules text (including reminder text)
+- Color indicators
+
+**Important:**
+- Hybrid mana `{W/U}` requires BOTH colors in commander's identity
+- Phyrexian mana `{W/P}` requires that color in identity
+- Colorless cards (artifacts, Eldrazi) are legal in any deck
+- Lands producing off-color mana are illegal
+
+### Power Level Brackets
+
+| Bracket | Description | Tutors | Fast Mana | Win Turn | Budget |
+|---------|-------------|--------|-----------|----------|--------|
+| 1 | Precon/Casual | 0-2 | Minimal | 10-15 | $50-150 |
+| 2 | Optimized Casual | 3-5 | Some | 8-12 | $150-500 |
+| 3 | High Power | 5-8 | Yes | 6-9 | $500-2000 |
+| 4 | cEDH | 8+ | All | 3-5 | $2000+ |
+
+### Deckbuilding Best Practices
+
+**Mana Base:**
+- 34-38 lands depending on curve and ramp density
+- Include lands that produce multiple colors
+- Avoid too many tap-lands in higher power decks
+- Consider utility lands (card draw, removal, protection)
+
+**Ramp (8-12 sources):**
+- 1-2 CMC ramp is most efficient
+- Land ramp (Cultivate, Kodama's Reach) is resilient
+- Artifact ramp (Sol Ring, signets) is fast but vulnerable
+- Creature ramp (dorks) enables early plays but dies to wraths
+
+**Card Advantage (8-12 sources):**
+- Repeatable draw engines are premium
+- One-shot draw spells fill gaps
+- Card selection (scry, surveil) smooths draws
+
+**Removal/Interaction (8-12 sources):**
+- Mix of targeted removal and board wipes
+- Include instant-speed interaction
+- Have answers for multiple permanent types
+- Counterspells protect your gameplan
+
+**Win Conditions (3-5):**
+- Have a primary strategy aligned with commander
+- Include backup win conditions
+- Avoid being one-dimensional
+
+**Curve Considerations:**
+- Average CMC of 3.0-3.5 is typical for Commander
+- Ensure early plays (turns 1-3)
+- Don't overload on high-CMC spells
+
+---
+
+## Deck Descriptions
+
+### Aragorn, the Uniter
+
+**Commander:** [Aragorn, the Uniter](https://scryfall.com/card/ltr/192) ({R}{G}{W}{U})
+
+A 4-mana 5/5 legendary Human Noble with four triggered abilities:
+- **White spell:** Create a 1/1 white Human Soldier token
+- **Blue spell:** Scry 2
+- **Red spell:** Deal 3 damage to target opponent
+- **Green spell:** Target creature gets +4/+4 until end of turn
+
+**Strategy:** Multicolored spellslinger/value engine. The deck maximizes Aragorn's triggers by casting multicolored spells that hit multiple triggers simultaneously. A single 3-color charm triggers three of Aragorn's abilities at once.
+
+**Power Level:** Bracket 2-3 (Optimized Casual to High Power)
+- 5 tutors
+- Premium mana base (fetches, shocks, triomes)
+- Heavy interaction suite
+- No infinite combos
+- Estimated win turns: 8-12
+
+**Key Synergies:**
+
+| Theme | Cards | Description |
+|-------|-------|-------------|
+| Multi-Color Payoffs | General Ferrous Rokiric, Hero of Precinct One, Knight of New Alara, Fallaji Wayfarer | Reward casting multicolored spells |
+| Token Generation | Divine Visitation, Jinnie Fay, Jetmir | Aragorn's soldier tokens become 4/4 angels or pump the whole team |
+| Charm Suite | Boros, Brokers, Cabaretti, Izzet, Jeskai, Naya, Simic, Temur Charms | Each triggers 2-3 of Aragorn's abilities |
+| LOTR Tribal | Arwen, Boromir, Éomer, Éowyn, Faramir (x2), Pippin | Flavorful synergy package |
+| Protection | Teferi's Protection, Heroic Intervention, Deflecting Swat, counterspells, Greaves/Boots | 15 cards protecting the commander |
+
+**Notable Combos:**
+- **Aragorn + Divine Visitation:** Every white spell creates a 4/4 flying angel instead of a 1/1
+- **Aragorn + Jetmir:** Wide token board becomes lethal with trample and double strike
+- **Congregation at Dawn + Aragorn:** Stack deck with multicolored creatures for maximum triggers
+
+**Mana Base:** 34 lands including fetch/shock package, triomes, horizon lands, and utility lands (Boseiju, Minas Tirith, Yavimaya)

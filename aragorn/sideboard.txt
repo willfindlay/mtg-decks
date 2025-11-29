@@ -1,0 +1,7 @@
+1 Escape to the Wilds (ELD) 189 #!Card Advantage #!Ramp
+1 Maelstrom Wanderer (CMM) 344 #Win Condition
+1 Solitude (MH2) 32 #!Interaction #!Removal
+1 Subtlety (MH2) 67 #!Interaction #!Removal
+1 Sungrass Prairie (TDC) 397
+1 Titanic Ultimatum (DDH) 31 #Win Condition
+1 Worldly Tutor (MIR) 255 #!Card Advantage #!Tutor
