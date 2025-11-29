@@ -14,6 +14,8 @@ This repository houses my Magic: The Gathering Commander/EDH decklists and serve
 
 When assisting with deck construction or analysis, **always use the Scryfall MCP tools** to verify card information rather than relying on training data alone.
 
+**Default Behavior:** When working on a specific deck, **always read the deck's `CLAUDE.md` first** (if it exists) before making any changes or analysis. This ensures access to pre-computed synergy notes, card roles, and oracle text without repeated Scryfall lookups.
+
 ---
 
 ## Repository Usage
