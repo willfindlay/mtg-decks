@@ -118,14 +118,6 @@
 - **Role:** Monarch engine, token generation
 - **Synergies:** Triggers 2 of Aragorn's abilities (white, blue). Aragorn entering makes you monarch.
 
-### Fury
-- **Mana Cost:** {3}{R}{R}
-- **Type:** Creature — Elemental Incarnation
-- **Stats:** 3/3
-- **Oracle Text:** Double strike. When this creature enters, it deals 4 damage divided as you choose among any number of target creatures and/or planeswalkers. Evoke—Exile a red card from your hand.
-- **Role:** Free removal, board control
-- **Synergies:** Can be evoked for free (triggers red ability on evoke). Double strike finisher.
-
 ### General Ferrous Rokiric
 - **Mana Cost:** {1}{R}{W}
 - **Type:** Legendary Creature — Human Soldier
@@ -214,14 +206,6 @@
 - **Oracle Text:** Flying. Other multicolored creatures you control get +1/+0. Whenever another multicolored creature you control dies, return it to its owner's hand at the beginning of the next end step.
 - **Role:** Recursion, multicolor anthem
 - **Synergies:** Triggers 3 of Aragorn's abilities (red, green, white). Returns multicolored creatures that die.
-
-### Surrak Dragonclaw
-- **Mana Cost:** {2}{G}{U}{R}
-- **Type:** Legendary Creature — Human Warrior
-- **Stats:** 6/6
-- **Oracle Text:** Flash. This spell can't be countered. Creature spells you control can't be countered. Other creatures you control have trample.
-- **Role:** Uncounterable threats, trample enabler
-- **Synergies:** Triggers 3 of Aragorn's abilities (green, blue, red). Protects creature spells from counters.
 
 ### Endurance
 - **Mana Cost:** {1}{G}{G}
@@ -319,19 +303,12 @@
 - **Role:** Ramp, card draw
 - **Synergies:** Triggers 2 of Aragorn's abilities (green, blue). Instant speed ramp.
 
-### Heroic Intervention
-- **Mana Cost:** {1}{G}
+### Bant Charm
+- **Mana Cost:** {G}{W}{U}
 - **Type:** Instant
-- **Oracle Text:** Permanents you control gain hexproof and indestructible until end of turn.
-- **Role:** Board protection
-- **Synergies:** Triggers green ability. Protects against board wipes.
-
-### Izzet Charm
-- **Mana Cost:** {U}{R}
-- **Type:** Instant
-- **Oracle Text:** Choose one — Counter target noncreature spell unless its controller pays {2}. Izzet Charm deals 2 damage to target creature. Draw two cards, then discard two cards.
-- **Role:** Flexible interaction
-- **Synergies:** Triggers 2 of Aragorn's abilities (blue, red). Modal flexibility.
+- **Oracle Text:** Choose one — Destroy target artifact. Put target creature on the bottom of its owner's library. Counter target instant spell.
+- **Role:** Flexible removal, countermagic
+- **Synergies:** Triggers 3 of Aragorn's abilities (green, white, blue). Tucks creatures to bottom (no graveyard recursion). Premium charm.
 
 ### Jeskai Charm
 - **Mana Cost:** {U}{R}{W}
@@ -340,12 +317,12 @@
 - **Role:** Removal, reach, lifegain
 - **Synergies:** Triggers 3 of Aragorn's abilities (blue, red, white). Premium charm.
 
-### Naya Charm
-- **Mana Cost:** {R}{G}{W}
+### Justice Strike
+- **Mana Cost:** {R}{W}
 - **Type:** Instant
-- **Oracle Text:** Choose one — Naya Charm deals 3 damage to target creature. Return target card from a graveyard to its owner's hand. Tap all creatures target player controls.
-- **Role:** Removal, recursion, alpha strike
-- **Synergies:** Triggers 3 of Aragorn's abilities (red, green, white). Tap mode enables lethal.
+- **Oracle Text:** Target creature deals damage to itself equal to its power.
+- **Role:** Big creature removal
+- **Synergies:** Triggers 2 of Aragorn's abilities (red, white). Scales with threat size - the bigger the creature, the deader it gets.
 
 ### Path to Exile
 - **Mana Cost:** {W}
@@ -353,6 +330,13 @@
 - **Oracle Text:** Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle.
 - **Role:** Premium removal
 - **Synergies:** Triggers white ability. Efficient exile removal.
+
+### Selesnya Charm
+- **Mana Cost:** {G}{W}
+- **Type:** Instant
+- **Oracle Text:** Choose one — Target creature gets +2/+2 and gains trample until end of turn. Exile target creature with power 5 or greater. Create a 2/2 white Knight creature token with vigilance.
+- **Role:** Big creature removal, pump, tokens
+- **Synergies:** Triggers 2 of Aragorn's abilities (green, white). Exile mode specifically answers big threats.
 
 ### Simic Charm
 - **Mana Cost:** {G}{U}
@@ -367,13 +351,6 @@
 - **Oracle Text:** Exile target creature. Its controller gains life equal to its power.
 - **Role:** Premium removal
 - **Synergies:** Triggers white ability. Best white removal spell.
-
-### Tamiyo's Safekeeping
-- **Mana Cost:** {G}
-- **Type:** Instant
-- **Oracle Text:** Target permanent you control gains hexproof and indestructible until end of turn. You gain 2 life.
-- **Role:** Single-target protection
-- **Synergies:** Triggers green ability. Cheap protection for Aragorn.
 
 ### Temur Charm
 - **Mana Cost:** {G}{U}{R}
@@ -512,6 +489,20 @@
 - **Oracle Text:** Equipped creature has hexproof and haste. Equip {1}.
 - **Role:** Commander protection
 - **Synergies:** Protects Aragorn while allowing you to target him.
+
+### Simic Signet
+- **Mana Cost:** {2}
+- **Type:** Artifact
+- **Oracle Text:** {1}, {T}: Add {G}{U}.
+- **Role:** Mana rock, color fixing
+- **Synergies:** Fixes the two hardest colors (green for ramp spells, blue for counters). Survives creature board wipes.
+
+### Gruul Signet
+- **Mana Cost:** {2}
+- **Type:** Artifact
+- **Oracle Text:** {1}, {T}: Add {R}{G}.
+- **Role:** Mana rock, color fixing
+- **Synergies:** Fixes red and green for Aragorn triggers and ramp. Survives creature board wipes.
 
 ---
 
@@ -702,3 +693,47 @@ Notable utility lands:
 - **Oracle Text:** Add two mana in any combination of colors. Draw a card.
 - **Role:** Fixing, cantrip
 - **Consideration:** Triggers 2 of Aragorn's abilities (hybrid). Cut for Esper Sentinel - no board presence, mana fixing less needed with Sol Ring and Arcane Signet.
+
+### Tamiyo's Safekeeping
+- **Mana Cost:** {G}
+- **Type:** Instant
+- **Oracle Text:** Target permanent you control gains hexproof and indestructible until end of turn. You gain 2 life.
+- **Role:** Single-target protection
+- **Consideration:** Triggers green ability (1 trigger only). Cut for Simic Signet - narrow protection, dead in hand with no board. Deck still has 11 protection pieces.
+
+### Heroic Intervention
+- **Mana Cost:** {1}{G}
+- **Type:** Instant
+- **Oracle Text:** Permanents you control gain hexproof and indestructible until end of turn.
+- **Role:** Board-wide protection
+- **Consideration:** Triggers green ability (1 trigger only). Cut for Gruul Signet - purely reactive, dead in hand with no board. Boros Charm provides similar indestructible effect with more flexibility.
+
+### Surrak Dragonclaw
+- **Mana Cost:** {2}{G}{U}{R}
+- **Type:** Legendary Creature — Human Warrior
+- **Stats:** 6/6
+- **Oracle Text:** Flash. This spell can't be countered. Creature spells you control can't be countered. Other creatures you control have trample.
+- **Role:** Uncounterable threats, trample enabler
+- **Consideration:** Triggers 3 of Aragorn's abilities (green, blue, red). Cut for Forest - 5 CMC is heavy, and "can't be countered" is redundant with Rhythm of the Wild. Trample is nice but not essential.
+
+### Fury
+- **Mana Cost:** {3}{R}{R}
+- **Type:** Creature — Elemental Incarnation
+- **Stats:** 3/3
+- **Oracle Text:** Double strike. When this creature enters, it deals 4 damage divided as you choose among any number of target creatures and/or planeswalkers. Evoke—Exile a red card from your hand.
+- **Role:** Free removal, board control
+- **Consideration:** Only triggers 1 Aragorn ability (mono-red). 4 damage cap can't handle big creatures. Cut for Justice Strike which scales with threat size and triggers 2 abilities.
+
+### Izzet Charm
+- **Mana Cost:** {U}{R}
+- **Type:** Instant
+- **Oracle Text:** Choose one — Counter target noncreature spell unless its controller pays {2}. Izzet Charm deals 2 damage to target creature. Draw two cards, then discard two cards.
+- **Role:** Flexible interaction
+- **Consideration:** Triggers 2 of Aragorn's abilities (blue, red). Cut for Bant Charm - 2 damage too weak for big creatures, soft counter unreliable. Bant Charm triggers 3 abilities and tucks any creature.
+
+### Naya Charm
+- **Mana Cost:** {R}{G}{W}
+- **Type:** Instant
+- **Oracle Text:** Choose one — Naya Charm deals 3 damage to target creature. Return target card from a graveyard to its owner's hand. Tap all creatures target player controls.
+- **Role:** Removal, recursion, alpha strike
+- **Consideration:** Triggers 3 of Aragorn's abilities (red, green, white). Cut for Selesnya Charm - 3 damage too weak for big creatures. Recursion/tap modes situational. Selesnya Charm exiles power 5+ unconditionally at lower CMC.

@@ -33,19 +33,19 @@
 1 Farewell (M3C) 170 #!Board Wipe #!Interaction
 1 Farseek (LTC) 244 #!Ramp
 1 Finale of Devastation (WAR) 160 #!Tutor #Win Condition
-2 Forest (LTR) 271 #!Land
+3 Forest (LTR) 271 #!Land
 1 Forth Eorlingas! (LTC) 56 #!Card Advantage #Win Condition
 1 Endurance (MH2) 157 #!Interaction #Graveyard Hate
-1 Fury (H2R) 10 #!Interaction #!Removal
+1 Justice Strike (GRN) 182 #!Interaction #!Removal
 1 Galadriel's Dismissal (LTC) 500 #!Protection
 1 General Ferrous Rokiric (MH2) 198 #Multi Coloured Matters
 1 Growth Spiral (RNA) 178 #!Card Advantage #!Ramp
 1 Hallowed Fountain (RNA) 251 #!Land
 1 Wan Shi Tong, Librarian (TLA) 78 #!Card Advantage
-1 Heroic Intervention (AER) 109 #!Interaction #!Protection
+1 Gruul Signet (BLC) 273 #!Ramp
 1 Horizon Canopy (FUT) 177 #!Land
 1 Bloodbraid Elf (2X2) 184 #!Card Advantage #Multi Coloured Matters
-1 Izzet Charm (2X2) 230 #!Card Advantage #!Countermagic #!Interaction #!Removal
+1 Bant Charm (2X2) 181 #!Countermagic #!Interaction #!Removal
 1 Jeskai Charm (KTK) 181 #!Interaction #!Removal
 1 Jetmir, Nexus of Revels (SNC) 193 #Win Condition
 1 Jetmir's Garden (SNC) 250 #!Land
@@ -59,7 +59,7 @@
 1 Misty Rainforest (MH2) 250 #!Land
 1 Mystic Remora (TLE) 16 #!Card Advantage
 1 Nature's Lore (DDD) 17 #!Ramp
-1 Naya Charm (PLST) C16-214 #!Card Advantage #!Interaction #!Protection #!Removal
+1 Selesnya Charm (CMA) 192 #!Interaction #!Removal
 1 Noble Hierarch (2XM) 177 #!Ramp
 1 Omnath, Locus of Creation (ZNR) 312 #!Card Advantage #!Ramp #Multi Coloured Matters
 1 Path of Ancestry (LTC) 322 #!Land
@@ -83,10 +83,9 @@
 1 Stomping Ground (PEOE) 258p #!Land
 1 Sunpetal Grove (LTC) 336 #!Land
 1 Supreme Verdict (LTC) 272 #!Board Wipe #!Interaction
-1 Surrak Dragonclaw (KTK) 206 #!Protection
 1 Swiftfoot Boots (TLE) 317 #!Protection
 1 Swords to Plowshares (PLST) VOC-99 #!Interaction #!Removal
-1 Tamiyo's Safekeeping (NEO) 211 #!Protection
+1 Simic Signet (DSC) 252 #!Ramp
 1 Rhystic Study (JMP) 169 #!Card Advantage
 1 Temple Garden (RTR) 248 #!Land
 1 Temur Charm (C20) 230 #!Countermagic #!Interaction #!Removal
